@@ -1,0 +1,16 @@
+***************************************
+  - sudo apt-key list -> para ver un listado de llaves y el estado de caducidad
+  
+
+ -> Ejecutar el siguiente codigo para actualizar 
+   -> wget -q -O - https://archive.kali.org/archive-key.asc | sudo apt-key add  (Enter)
+
+  - Se actualizara y tendra una fecha de caducidad 
+  -> verificamos con el comando 
+    - apt-key list  (Enter)
+
+  -> ahora si podemos ejecutar el comando para actualizar 
+   - sudo apt update (enter)
+   - sudo apt upgrade (enter)
+
+********************************************************
